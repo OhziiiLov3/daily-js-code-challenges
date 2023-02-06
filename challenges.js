@@ -34,7 +34,10 @@ addOne(-5) //=> -4
 -----------------------------------------------------------------*/
 // Your solution for 01-addOne here:
 
-
+const addOne = (x) =>{
+  return x + 1
+}
+console.log(addOne(23));
 
 
 
@@ -57,10 +60,16 @@ addTwoNumbers('Hello', 5) //=> NaN
 -----------------------------------------------------------------*/
 // Your solution for 02-addTwoNumbers here:
 
+const addSum = (a, b) =>{
+  return a + b 
+}
+console.log(`The sum is: ${addSum(5,5)}`);
+console.log(addSum(5,50));
 
-
-
-
+function addTwoNumbers(a,b){
+  return a + b
+}
+console.log(`Add Two Numbers: ${addTwoNumbers(9,9)}`);
 /*-----------------------------------------------------------------
 Challenge: 03-sumNumbers
 
@@ -80,6 +89,9 @@ sumNumbers([]) //=> 0
 -----------------------------------------------------------------*/
 // Your solution for 03-sumNumbers here:
 
+function sumNumbers(){
+  
+}
 
 
 
