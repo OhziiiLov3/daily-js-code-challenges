@@ -67,8 +67,15 @@ console.log(`The sum is: ${addSum(5,5)}`);
 console.log(addSum(5,50));
 
 function addTwoNumbers(a,b){
-  return a + b
+  if(typeof a === "number" && typeof b === "number"){
+      return a + b;
+      
+  }else{
+    return NaN
+  }
+
 }
+
 console.log(`Add Two Numbers: ${addTwoNumbers(9,9)}`);
 /*-----------------------------------------------------------------
 Challenge: 03-sumNumbers
